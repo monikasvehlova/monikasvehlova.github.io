@@ -1,41 +1,41 @@
-// body{
-//   font-family: "Helvetica";
-//   text-align: center;
-//   padding: 50px 20px 0;
-//   background: #f4f4f7;
-//   color: #444;
-//   margin: 0;
-// }
-
-// h1{
-//   font-size: 65px;
-//   line-height: 1.2em;
-//   border-bottom: #CCC solid 1px;
-//   padding: 20px 0;
-// }
-
-// h3{
-//   font-weight: 300;
-// }
-
 body {
-  // color: #444;
-  // color: 29262B;
   color: #414141;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
-  // color: #DE475F;
-  // color: #DB0148;
-  color: #EE4938;
+  color: #00a0ff;
+}
+
+h1, h2, h3 {
+  color: #30487b;
 }
 
 header {
-  // background-color: #DACFC9;
-  // color: #5F3D55;
-  background-color: #f8f3ef;
-  // color: #5F3D55;
+  background-color: #e8f6ff;
+  h1 a {
+    color: #30487b;
+    text-decoration: none;
+  }
+}
+
+.navigation {
+  background-color: #e8f6ff;
+  .container {
+    padding: 0;
+  }
+  .pure-menu {
+    background-color: transparent;
+    a {
+      color: #414141;
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+  .pure-menu-selected {
+    background-color: white;
+  }
 }
 
 .container {
